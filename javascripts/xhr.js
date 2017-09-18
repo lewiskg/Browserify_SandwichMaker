@@ -1,13 +1,14 @@
 "use strict";
 
-const loadFoodItems = (onFoodItemsLoad, onFoodItemsError) => { // pass fxns for load and error
+const data = require('./data.js');
+
+function loadFoodItems() { // pass fxns for load and error
 	const foodItems = new XMLHttpRequest();
-	foodItems.addEventListener('error',onFoodItemsError);
-	foodItems.addEventListener('load',onFoodItemsLoad);
+	foodItems.addEventListener('error',data.errorFunction);
+	foodItems.addEventListener('load',data.whenFoodItemsLoad);
 	foodItems.open('GET', '../data/foodStuff.json');
 	foodItems.send();
-	console.log(foodItems);
-};
+}
 
 
-module.exports = loadFoodItems;
+module.exports = {loadFoodItems};
