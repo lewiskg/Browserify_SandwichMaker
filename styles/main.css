@@ -1,0 +1,58 @@
+body {
+	background-color: lightblue;
+}
+
+#menu-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sandwich-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#sandwich-holder, #sandwich-price {
+	border: solid 2px black;
+	text-align: left;
+	min-height:200px;
+	min-width: 250px;
+	display: inline-block;
+	margin: 2px;
+}
+
+#sandwich-price {
+	text-align:center;
+}
+
+
+ul {
+	list-style: none;
+}
+
+.food-group {
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	border: solid 2px black;
+	margin: 2px;
+}
+
+hr {
+	width: 250px;
+}
+
+.sandwich {
+	display:block;
+	margin: 5px 0 0 0;
+}
+
+.sandwich-item-price, .sandwih-item-food {
+	margin: 10px;
+}
+
+#total-price {
+	font-weight: bold;
+	position: relative;
+	top: 35%;
+}

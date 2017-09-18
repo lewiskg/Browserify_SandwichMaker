@@ -1,0 +1,7 @@
+{
+	"bread" : {"white": 0.50,"wheat": 0.75,"rye": 0.80,"french": 1.00,"sourdough": 1.50,"multi-grain": 2.00},
+	"cheeses" : {"cheddar": 0.05,"american": 0.05,"swiss": 0.05,"monterey jack": 0.10,"mozzarella": 0.05,"parmigiano": 0.05},
+	"condiments" :{"mustard": 0.02,"katchup": 0.02,"mayonnaise": 0.05,"dill relish": 0.10,"sweat relish": 0.10,"hummius": 0.80,"guacamole": 1.00,"pesto": 0.90},
+	"meats" : {"chicken": 1.50,"turkey": 1.50,"pancetta": 2.25,"roast beef": 2.00,"ham": 1.00,"pepperoni": 1.75,"salami": 1.50,"pastrami": 2.00,"bologna": 0.75},
+	"veggies": {"tomato": 0.25,"cucumber": 0.15,"lettuce": 0.10 ,"onion": 0.15,"red bell pepper": 0.35,"green bell pepper": 0.30,"spinach": 0.45,"olives": 0.25,"jalapenos": 0.30}
+}
